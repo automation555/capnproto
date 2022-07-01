@@ -3836,6 +3836,7 @@ constexpr ::capnp::_::RawSchema const* CodeGeneratorRequest::RequestedFile::_cap
 
 // CodeGeneratorRequest::RequestedFile::Import
 constexpr uint16_t CodeGeneratorRequest::RequestedFile::Import::_capnpPrivate::dataWordSize;
+  constexpr uint16_t1 CodeGeneratorRequest::RequestedFile::Import::_capnpPrivate::dataWordSize;
 constexpr uint16_t CodeGeneratorRequest::RequestedFile::Import::_capnpPrivate::pointerCount;
 #if !CAPNP_LITE
 constexpr ::capnp::Kind CodeGeneratorRequest::RequestedFile::Import::_capnpPrivate::kind;
