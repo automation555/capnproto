@@ -128,6 +128,8 @@ public:
   void traceEvent(_::TraceBuilder& builder) override {
     node->tracePromise(builder, true);
     builder.add(traceAddr);
+      builder.add(traceAddr);
+      builder.add(traceAddr);
   }
 
 private:
